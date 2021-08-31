@@ -1,0 +1,333 @@
+/* Шрифты */
+
+@font-face {
+    font-family: "Tavolga Free";
+    src: url("../fonts/tavolgaFree.ttf")
+}
+
+@font-face {
+    font-family: "LifeHackSansRegular";
+    src: url("../fonts/lifehackSansRegular.ttf")
+}
+
+/* Стили для сайта*/
+
+body {
+    margin: 0;
+}
+
+#header {
+    background: #c7d235;
+    padding: 5px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+#header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 18px;
+    font-family: "Tavolga Free", sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#header-container .logo {
+    margin-right: 286px;
+}
+
+.header-item {
+    font-size: 15px;
+    font-family: "Tavolga Free", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 4.333;
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+.header-item:last-child {
+    margin-right: 0;
+}
+
+#main {
+    background-image: url("../images/bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#left-block {
+    width: 510px;
+    position: relative;
+    height: 607px;
+    margin-top: 212px;
+    display: inline-block;
+}
+
+.title {
+    font-size: 55px;
+    font-family: "Tavolga Free", sans-serif;
+    color: rgb(215, 168, 77);
+    line-height: 1.182;
+    text-align: left;
+    width: 506px;
+}
+
+#left-block-text {
+    font-size: 17px;
+    font-family: "Tavolga Free", sans-serif;
+    color: rgb(57, 39, 3);
+    line-height: 1.471;
+    text-align: left;
+    margin-top: 60px;
+    width: 481px;
+}
+
+.border-button {
+    border: 1px solid rgb(215, 168, 77);
+    width: 232px;
+    height: 60px;
+    margin-top: 61px;
+}
+
+button {
+    background-color: rgb(215, 168, 77);
+    width: 222px;
+    height: 50px;
+    border: 0;
+    color: #ffffff;
+    margin: 5px;
+    font-size: 17px;
+    line-height: 1.471;
+}
+
+#left-block-image img {
+    position: absolute;
+    left: 215px;
+    bottom: 110px;
+}
+
+#rotate-text {
+    font-size: 25px;
+    font-family: "LifeHackSansRegular", sans-serif;
+    color: rgb(193, 205, 65);
+    line-height: 1.2;
+    text-align: center;
+    width: 109px;
+    transform: rotate(20deg);
+    position: absolute;
+    bottom: 113px;
+    left: 268px;
+    letter-spacing: 1px;
+}
+
+#quality {
+    background: #f1c90c;
+    padding: 55px 0;
+    position: relative;
+}
+
+#quality-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.quality-item {
+    font-size: 20px;
+    font-family: "Tavolga Free", sans-serif;
+    color: rgb(255, 255, 255);
+    margin-right: 176px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 2;
+    padding: 6px 0 6px 11px;
+}
+
+.quality-item::before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: #d7a84d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#quality-container .quality-item:last-child {
+    margin-right: 0;
+}
+
+#description-text {
+    font-size: 20px;
+    font-family: "Tavolga Free", sans-serif;
+    color: rgb(57, 39, 3);
+    text-align: center;
+    width: 690px;
+    margin: 150px auto 105px auto;
+    line-height: 1.5;
+    position: relative;
+    z-index: 1;
+}
+
+#description-text img {
+    position: absolute;
+    top: -6px;
+    left: -85px;
+    z-index: -1;
+}
+
+#camomile {
+    position: absolute;
+    right: -15px;
+    bottom: 45px;
+}
+
+#form {
+    background: #fefaf3;
+    padding: 100px 0;
+}
+
+#form-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#current-form {
+    border: 1px solid rgb(215, 168, 77);
+    width: 648px;
+    margin-top: 80px;
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 30px 0;
+}
+
+#block-left {
+    font-size: 15px;
+    font-family: "Tavolga Free", sans-serif;
+    color: rgb(57, 39, 3);
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    width: 198px;
+    padding: 0 39px;
+    line-height: 1.667;
+}
+
+#block-right {
+    display: inline-block;
+    vertical-align: middle;
+    width: 302px;
+    padding: 0 32px;
+    text-align: center;
+    border-left: 1px solid #f4deb4;
+}
+
+#form-title {
+    font-size: 20px;
+    font-family: "Tavolga Free", sans-serif;
+    color: rgb(57, 39, 3);
+    line-height: 1.25;
+    margin-bottom: 49px;
+}
+
+.form-text {
+    font-size: 15px;
+    font-family: "Tavolga Free", sans-serif;
+    color: rgb(215, 168, 77);
+    line-height: 1.667;
+    text-align: left;
+    width: 232px;
+    border: 0;
+    background: #fefaf3;
+    border-bottom: 1px solid #d7a84d;
+    margin-bottom: 30px;
+    padding-left: 12px;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+input::-webkit-input-placeholder {
+    color: #D7A84D;
+}
+
+#label label:last-child {
+    margin-bottom: 0;
+}
+
+form .border-button {
+    margin: 0 auto;
+}
+
+#line {
+    position: absolute;
+    left: 271px;
+    top: 35px;
+}
+
+#right-image {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 22px;
+}
+
+#footer {
+    background: #9aa50c;
+    padding: 40px 0;
+}
+
+#footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#footer .logo {
+    margin-right: 281px;
+}
+
+#footer-container span:nth-child(2) {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin-right: 298px;
+    font-family: "Tavolga Free", sans-serif;
+}
+
+#footer-container span:last-child {
+    font-size: 13px;
+    font-family: "Tavolga Free", sans-serif;
+    color: rgb(58, 62, 7);
+}
+
+#up-to-top a {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background: #f4deb4;
+    z-index: 9998;
+    text-align: center;
+    color: #d7a84d;
+}
+
+#up-to-top a i {
+    font-size: 30px;
+    padding: 14px 16px;
+}
+
+#up-to-top a:visited {
+    color: #d7a84d;
+}
+
